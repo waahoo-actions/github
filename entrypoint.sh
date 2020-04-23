@@ -1,4 +1,5 @@
 #!/bin/sh -l
+pwd
 ls
 cd $JAVA_HOME
 ls

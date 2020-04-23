@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM adoptopenjdk/openjdk14:alpine-jre
+FROM adoptopenjdk/openjdk14:jre-14.0.1_7-alpine
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh

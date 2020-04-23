@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: waahoo-actions/github@master
+    - uses: ./
       with:
         action: 'download'
         params: 'dddd dddd "123123" d dddddd'

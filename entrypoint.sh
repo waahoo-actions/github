@@ -1,11 +1,2 @@
 #!/bin/sh -l
-pwd
-ls
-cd $JAVA_HOME
-ls
-pwd
-cd bin
-ls
-which java
-#echo "$JAVA_HOME"
-#$JAVA_HOME/java -jar /github-api.jar "$@"
+$JAVA_HOME/bin/java -jar github-api.jar "$@"

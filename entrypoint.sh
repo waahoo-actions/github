@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
 echo "$JAVA_HOME"
-java -jar /github-api.jar "$@"
+$JAVA_HOME/java -jar /github-api.jar "$@"

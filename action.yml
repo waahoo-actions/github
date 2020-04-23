@@ -1,15 +1,11 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  action:  # id of input
-    description: 'action'
-    required: true
   params:
     description: 'parameters'
-    required: false
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.action }}
     - ${{ inputs.params }}

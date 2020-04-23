@@ -16,5 +16,4 @@ jobs:
     - uses: actions/checkout@v2
     - uses: ./
       with:
-        action: 'download'
         params: dddd dddd "123123" d dddddd

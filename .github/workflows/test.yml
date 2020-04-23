@@ -17,4 +17,4 @@ jobs:
     - uses: ./
       with:
         action: 'download'
-        params: 'dddd dddd "123123" d dddddd'
+        params: dddd dddd "123123" d dddddd

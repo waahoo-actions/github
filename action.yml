@@ -1,11 +1,9 @@
-name: 'Github API'
-description: 'github api actions'
+name: 'github api'
+description: 'github api'
 inputs:
   params:
     description: 'parameters'
     required: true
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.params }}
+  using: 'node12'
+  main: 'index.js'
